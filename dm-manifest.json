@@ -26,6 +26,17 @@
   ],
   "changelog": [
     {
+      "version": "0.0.1.0.32",
+      "date": "2026-09-22",
+      "changes": [
+        "Langue de l'interface : sélecteur dans Paramètres (français, anglais, espagnol, portugais, chinois), persisté dans config.json et réappliqué au démarrage",
+        "Palette de l'assistant localisée : chips, onglets, statuts, journal d'actions, suggestions, indicateur de sélection et messages d'erreur suivent la langue choisie",
+        "Menus et commandes LibreOffice de l'extension traduits par locale (xml:lang)",
+        "La langue de réponse du modèle suit la langue d'interface choisie (llm.answer_language)",
+        "Libellés résolus à l'affichage : changer la langue s'applique à la prochaine ouverture de la palette, sans redémarrer LibreOffice"
+      ]
+    },
+    {
       "version": "0.0.1.0.31",
       "date": "2026-09-02",
       "changes": [
